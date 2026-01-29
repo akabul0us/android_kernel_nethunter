@@ -457,7 +457,7 @@ config NETHUNTER_CAN_SUBSYSTEM_SUPPORT
 
 	select	CAN_VCAN
 
-	select	CAN_SLCAN && m
+	#select	CAN_SLCAN && m
 
 	select	CAN_DEV
 
